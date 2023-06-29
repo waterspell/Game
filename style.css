@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "StratosSkyeng";
+    src: url("./StratosSkyeng/stratosskyengweb-regular.woff2") format("woff2"),
+      url("./StratosSkyeng/stratosskyengweb-regular.woff") format("woff");
+}
+
+body {
+    background: #0080C1;;
+    font-family: 'StratosSkyeng';
+}
+
+.level {
+    width: 480px;
+    height: 459px;
+    background: #C2F5FF;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+}
+
+.level_header {
+    font-weight: 400;
+    font-size: 40px;
+    color: #0080C1;
+    line-height: 48px;
+}
+
+.level_number {
+    display: flex;
+    gap: 20px;
+}
+
+.level_number-one,
+.level_number-two,
+.level_number-three {
+    font-weight: 400;
+    font-size: 64px;
+    color: #0080C1;
+    background: #FFFFFF;
+    border-radius: 12px;
+    width: 97px;
+    height: 98px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.level_choose-button {
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+    background: #7AC100;
+    border: none;
+    border-radius: 12px;
+    width: 246px;
+    height: 50px;
+}
+
+.highlight {
+    border: solid #0080C1;
+}
